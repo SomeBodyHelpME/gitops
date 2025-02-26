@@ -6,6 +6,7 @@ metadata:
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
+  ingressClassName: argocd-ingress  # 새로운 IngressClass 이름
   rules:
     - host: local-helloworld.com  # 사용할 도메인 이름
       http:
