@@ -7,7 +7,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-    - host: argocd.example.com  # 사용할 도메인 이름
+    - host: local-helloworld.com  # 사용할 도메인 이름
       http:
         paths:
           - path: /
