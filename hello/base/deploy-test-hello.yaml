@@ -17,3 +17,5 @@ spec:
       containers:
         - name: hello-world
           image: containerregistrylsetest.azurecr.io/hello-world:0.1
+          ports:
+            - containerPort: 8080
