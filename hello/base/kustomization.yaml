@@ -3,7 +3,6 @@ kind: Kustomization
 resources:
   - deploy-test-hello.yaml
   - service-test-hello.yaml
-  - ingress-test-hello.yaml
 
 configMapGenerator:
   - name: helloworld-config
